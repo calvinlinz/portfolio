@@ -12,6 +12,8 @@ export default function HomepageHeader() {
         <Image 
         src="/selfie.jpg"
         alt="selfie"
+        width={150}
+        height={150}
         />
       </div>
       <div className={styles.description}>

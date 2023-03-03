@@ -1,7 +1,7 @@
 
 
 .gridBox {
-  width:400px;
+  width:500px;
   box-shadow:0px 0px 10px 5px rgb(206, 206, 206);
   margin:auto;
   margin-top:50px;
@@ -15,19 +15,21 @@
 }
 
 .information{
-  display:block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  height:150px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
 }
 
 .gridBoxBottom a{
-  float: left;
-  padding:20px;
   color: #222831;
   text-align: center;
+  display:inline-block;
+  padding: 10px;
   background-color:#f2f2f2;
-  height: 110px;
-  width:360px;
-  border-bottom-left-radius:8px;
-  border-bottom-right-radius:8px;
 }
 
 .gridBoxBottom{
@@ -64,7 +66,6 @@
   border-top-left-radius: 2%;
   border-top-right-radius: 2%;
   height:300px;
-  width:400px;
   display:flex;
 }
 
@@ -73,4 +74,11 @@
   width:100%;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+
+@media (max-width: 500px) {
+  .gridBox{
+    width:300px;
+  }
 }

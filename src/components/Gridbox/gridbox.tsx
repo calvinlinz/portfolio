@@ -14,7 +14,7 @@ const GridBox : FC<ImageSource> = ({source, link, description,title}) => {
   return (
     <div className={styles.gridBox}>
       <div className={styles.square}>
-        <Image 
+        <img 
         src={source}
         alt="portfolio photo"
         />
