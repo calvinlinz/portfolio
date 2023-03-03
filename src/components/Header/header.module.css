@@ -1,14 +1,13 @@
 .nav {
   padding: 20px 50px;
-  border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
-  background-color: cornsilk;
+  background-color: #222831;
 }
 
 .nav a {
   font-size: 1.5rem;
-  color: black;
+  color: #EEEE;
   text-decoration: none;
 }
 
@@ -37,7 +36,7 @@ nav .navBarLinks a {
 .navBarLinks a:hover,
 .navBarEmail a:hover,
 .navBarHead a:hover {
-  border-color: #6e7cfc;
+  border-color: #00ADB5;
 }
 
 @media (max-width: 1000px) {
@@ -51,7 +50,6 @@ nav .navBarLinks a {
     text-align: center;
     padding: 0;
     flex-direction: column;
-    background-color: cornsilk;
   }
 
   .navBarHead {
@@ -69,10 +67,9 @@ nav .navBarLinks a {
   }
   .ul li {
     border-bottom: 0px;
-    border-top: 1px solid black;
   }
 
   .navBarLinks a:hover {
-    background-color: steelblue;
+    background-color: #00ADB5;
   }
 }
