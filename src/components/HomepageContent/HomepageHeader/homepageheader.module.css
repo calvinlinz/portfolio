@@ -1,0 +1,20 @@
+.header{
+    padding:50px;
+}
+
+.description{
+    padding-bottom:50px;
+}
+
+.photo img{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.photo {
+    display:flex;
+    justify-content: center;
+    padding-bottom:50px;
+}
