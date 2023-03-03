@@ -1,7 +1,7 @@
-import { Url } from "next/dist/shared/lib/router/router";
-import { title } from "process";
-import { FC, ImgHTMLAttributes } from "react";
+import { FC } from "react";
 import styles from "./gridbox.module.css";
+import Image from 'next/image'
+
 
 export type ImageSource = {
   title: string,
@@ -14,7 +14,10 @@ const GridBox : FC<ImageSource> = ({source, link, description,title}) => {
   return (
     <div className={styles.gridBox}>
       <div className={styles.square}>
-        <img src={source}></img>
+        <Image 
+        src={source}
+        alt="portfolio photo"
+        />
       </div>
       <div className={styles.gridBoxBottom}>
         <div className ={styles.gridBoxBottomHeader}>
