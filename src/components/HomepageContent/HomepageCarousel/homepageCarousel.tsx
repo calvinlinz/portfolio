@@ -1,10 +1,6 @@
 import GridBox from "@/components/Gridbox/gridbox"
-import ImageProp from "@/components/Gridbox/gridbox"
-import styles from './HomepageCarousel.module.css'
+import styles from './homepageCarousel.module.css'
 import { ImageSource } from "@/components/Gridbox/gridbox"
-
-
-
 
 export default function HomepageCarousel(){
     let gridBox1 : ImageSource = {

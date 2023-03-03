@@ -1,4 +1,5 @@
 import styles from "./homepageheader.module.css";
+import Image from 'next/image'
 
 export default function HomepageHeader() {
   return (
@@ -8,7 +9,10 @@ export default function HomepageHeader() {
         <a>welcome to my portfolio website</a>
       </div>
       <div className={styles.photo}>
-        <img src="/selfie.jpg"></img>
+        <Image 
+        src="/selfie.jpg"
+        alt="selfie"
+        />
       </div>
       <div className={styles.description}>
         <a>calvin li</a>
