@@ -11,15 +11,15 @@ export default function HomepageCarousel(){
     }
     let gridBox2 : ImageSource = {
         link :"/",
-        description :"Weather App. WIP, retrieve weather information from weather.com public API and displays output",
+        description :"Maybe future project?",
         title : "Weather App",
         source :"/weather.png"
     }
     let gridBox3 : ImageSource = {
-        link :"https://crosshair.netlify.app",
-        description :"test",
-        title : "Crosshair Website",
-        source :"/selfie.jpg"
+        link :"https://postitnotes.netlify.app",
+        description :"Full stack web application. Either contribute to the communal board or log in to write notes only you can see. Redux used to store user sessions and data is stored in JSON files. API was created to update and view data. Google API used for authentication. Web app not functional on Netlify as website is statically hosted",
+        title : "Post-It Notes",
+        source :"/notes.jpg"
     }
 
     return (
