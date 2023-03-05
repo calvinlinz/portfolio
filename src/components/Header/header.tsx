@@ -10,13 +10,13 @@ export default function Header(){
                 </div>
                 <div className = {styles.navBarLinks}>
                     <ul className = {styles.ul}>
-                        <li><Link href ="https://crosshair.netlify.app">projects</Link></li>
-                        <li><Link href ="/">resume</Link></li>
-                        <li><Link href ="/">contact me</Link></li>
+                        <li className={styles.menuItem}><a href ="https://www.linkedin.com/in/calvinlinz/">linkedin</a></li>
+                        <li className={styles.menuItem}><a href ="https://github.com/calvinlinz">github</a></li>
+                        <li className={styles.menuItem}><a href ="/Calvin_Li_cv.pdf">resume</a></li>
                     </ul>
                 </div>
                 <div className = {styles.navBarEmail}>
-                    <a href="callvinlinz@gmail.com">callvinlinz@gmail.com</a>
+                    <a href="mailto: callvinlinz@gmail.com">callvinlinz@gmail.com</a>
                 </div>
             </nav>
         </div>

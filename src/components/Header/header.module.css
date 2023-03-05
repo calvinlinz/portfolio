@@ -39,6 +39,14 @@ nav .navBarLinks a {
   border-color: #00ADB5;
 }
 
+.ul:hover > .menuItem{
+  opacity: 0.3;
+}
+
+.ul:hover > .menuItem:hover{
+  opacity: 1;
+}
+
 @media (max-width: 1000px) {
   .navBarEmail {
     display: none;
