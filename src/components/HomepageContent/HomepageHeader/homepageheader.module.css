@@ -1,24 +1,36 @@
-.homepageHeader{
-    background-color: #393E46;
-}
-
-.header{
-    padding:50px;
-}
-
-.description{
-    padding-bottom:50px;
-}
-
-.photo img{
-    width:150px;
-    height:150px;
-    object-fit:cover;
-    border-radius: 50%;
-}
-
-.photo {
-    display:flex;
-    justify-content: center;
-    padding-bottom:50px;
-}
+    .homepageHeader {
+        background-color: #393E46;
+        height: 89vh;
+        display: flex;
+    }
+    
+    .headerContents {
+        margin: auto;
+    }
+    
+    .header {
+        padding: 50px;
+    }
+    
+    .description {
+        padding-bottom: 50px;
+    }
+    
+    .photo img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    .photo {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    
+    @media (max-width: 640px) {
+        .homepageHeader {
+            height: 75vh;
+        }
+    }

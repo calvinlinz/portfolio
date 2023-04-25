@@ -1,83 +1,83 @@
 .nav {
-  padding: 20px 50px;
-  display: flex;
-  justify-content: space-between;
-  background-color: #222831;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222831;
+    height: 7vh;
 }
 
 .nav a {
-  font-size: 1.5rem;
-  color: #EEEE;
-  text-decoration: none;
+    font-size: 1.5rem;
+    color: #EEEE;
+    text-decoration: none;
 }
 
 .navBarEmail,
 .navBarHead {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
 }
 
 .ul {
-  list-style: none;
-  display: flex;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
 
 nav .navBarLinks a {
-  padding: 0 10px;
+    padding: 0 10px;
 }
+
 .navBarEmail a,
 .navBarHead a,
 .navBarLinks a {
-  border-bottom: 2px solid transparent;
+    border-bottom: 2px solid transparent;
 }
+
 .navBarLinks a:hover,
 .navBarEmail a:hover,
 .navBarHead a:hover {
-  border-color: #00ADB5;
+    border-color: #00ADB5;
 }
 
-.ul:hover > .menuItem{
-  opacity: 0.3;
+.ul:hover>.menuItem {
+    opacity: 0.3;
 }
 
-.ul:hover > .menuItem:hover{
-  opacity: 1;
+.ul:hover>.menuItem:hover {
+    opacity: 1;
 }
 
 @media (max-width: 1000px) {
-  .navBarEmail {
-    display: none;
-  }
+    .navBarEmail {
+        display: none;
+    }
 }
 
 @media (max-width: 640px) {
-  .nav {
-    text-align: center;
-    padding: 0;
-    flex-direction: column;
-  }
-
-  .navBarHead {
-    padding: 20px;
-  }
-
-  .ul {
-    margin: 0;
-    flex-direction: column;
-  }
-
-  .ul li a {
-    display: block;
-    padding: 10px;
-  }
-  .ul li {
-    border-bottom: 0px;
-  }
-
-  .navBarLinks a:hover {
-    background-color: #00ADB5;
-  }
+    .nav {
+        text-align: center;
+        padding: 0;
+        flex-direction: column;
+        height: 25vh;
+    }
+    .navBarHead {
+        padding: 20px;
+    }
+    .ul {
+        margin: 0;
+        flex-direction: column;
+    }
+    .ul li a {
+        display: block;
+        padding: 10px;
+    }
+    .ul li {
+        border-bottom: 0px;
+    }
+    .navBarLinks a:hover {
+        background-color: #00ADB5;
+    }
 }

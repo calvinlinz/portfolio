@@ -10,10 +10,10 @@ export default function HomepageCarousel(){
         source :"/crosshair.png"
     }
     let gridBox2 : ImageSource = {
-        link :"/",
-        description :"Maybe future project?",
-        title : "Weather App",
-        source :"/weather.png"
+        link :"https://github.com/calvinlinz/portfolio",
+        description :"Check out the code for this website!",
+        title : "Portfolio Website",
+        source :"/portfolio.png"
     }
     let gridBox3 : ImageSource = {
         link :"https://postitnotes.netlify.app",
