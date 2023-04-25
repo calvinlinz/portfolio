@@ -11,7 +11,7 @@ export default function HomepageHeader() {
         </div>
         <div className={styles.photo}>
           <Image
-            src="/pf 2.JPEG"
+            src="/selfie.jpg"
             alt="selfie"
             width={150}
             height={150}
